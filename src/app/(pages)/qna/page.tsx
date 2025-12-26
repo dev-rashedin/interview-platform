@@ -1,8 +1,6 @@
+import DisplayContent from '@/components/DisplayContent';
 const QnaPage = () => {
-  return (
-    <main className="h-screen flex-center">
-      <h1>Interview Question Bank</h1>
-    </main>
-  )
+   return <DisplayContent endpoint='guide' slug='index' />;
 }
 export default QnaPage
+
