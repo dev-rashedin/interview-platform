@@ -1,4 +1,4 @@
-import DocsImage from './DocsImage';
+import DocsImage from './ui/DocsImage';
 import CodeBlock from './ui/CodeBlock';
 
 const InlineHighlight = ({ children }: { children: React.ReactNode }) => (
