@@ -34,7 +34,9 @@ body {
   }
   h3 {
     @apply text-xl lg:text-2xl font-bold;
-  
+}
+a {
+  @apply text-blue-500 underline cursor-pointer;
 }
 }
 
@@ -50,5 +52,9 @@ body {
 
   .flex-between {
     @apply flex items-center justify-between;
+  }
+
+  .nav-link {
+    @apply lg:text-lg hover:text-yellow-500 text-white no-underline transition-all duration-100 ease-in;
   }
 }
